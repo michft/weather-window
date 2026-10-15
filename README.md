@@ -9,9 +9,12 @@ Mobile-first tracker for a **30-minute rain-free shopping round trip**. Choose a
 Requires Node.js 24+ and pnpm 11.
 
 ```sh
+cd ~/src/weather-window
 pnpm install
 pnpm dev
 ```
+
+Checkout moved from `~/.t3/projects/src-weather-window` to `~/src/weather-window`. Source paths are relative. When moving a checkout, install dependencies in the new location rather than copying `node_modules`; generated pnpm launchers can retain absolute paths to the old checkout.
 
 Open http://localhost:5173. Choose a point, or select **Try demo forecast** to explore dry/rainy scenarios and demo alerts. The **Use map centre** button provides a keyboard alternative to clicking the map. Arrow keys pan the focused map.
 
