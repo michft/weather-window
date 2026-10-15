@@ -47,4 +47,6 @@ The selected point is saved only in this browser’s local storage. Watches are 
 
 ## Delivery status
 
+See [contributing and jj workflow](CONTRIBUTING.md) for checkout setup, ignored local files, validation, and pull requests.
+
 TypeScript app, map selection, postcode lookup, demo, alert engine, validation, and local production server implemented. Live BOM feed/licensing and closed-app notifications remain outside verified functionality. GitHub origin is `michft/weather-window`; [PR body](docs/PR.md) covers the app and relocated checkout setup for review against `main`.

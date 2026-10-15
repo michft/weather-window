@@ -1,4 +1,18 @@
+# Dependencies and generated output
 node_modules/
+.pnpm-store/
 dist/
+coverage/
+*.tsbuildinfo
+
+# Local configuration and secrets
 .env
+.env.*
+!.env.example
+
+# Local version-control metadata and OS files
+.jj/
+.DS_Store
+
+# Runtime logs
 *.log
